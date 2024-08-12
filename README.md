@@ -1,2 +1,1 @@
-# sdk-demo
-Wallet SDK demo apps
+# Wallet SDK demo apps

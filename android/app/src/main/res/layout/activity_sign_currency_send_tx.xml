@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="@dimen/d24">
+
+    <RelativeLayout
+        android:id="@+id/loadingOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:gravity="center"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/primary" />
+
+        <Button
+            android:id="@+id/overlay_go_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d12"
+            android:text="Go back" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/go_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Go back" />
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/h2_sb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/d32"
+                android:layout_marginBottom="@dimen/d12"
+                android:gravity="center"
+                android:text="Sign currency send transaction"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/select_wallet_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/d6"
+                android:gravity="left"
+                android:text="Select Wallet"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/wallets_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/d38"
+                android:layout_marginBottom="@dimen/d10"
+                android:background="@color/background20" />
+
+            <TextView
+                android:id="@+id/select_asset_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/d6"
+                android:gravity="left"
+                android:text="Select Asset"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/assets_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/d38"
+                android:layout_marginBottom="@dimen/d10"
+                android:background="@color/background20" />
+
+            <TextView
+                android:id="@+id/to_address_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/d6"
+                android:text="To:"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/to_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/d10"
+                android:background="@color/black10"
+                android:gravity="start|top"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/amount_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/d6"
+                android:text="Amount:"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/d10"
+                android:background="@color/black10"
+                android:gravity="start|top"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/personal_note_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/d6"
+                android:text="Personal Note"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/personal_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/d10"
+                android:background="@color/black10"
+                android:ems="10"
+                android:gravity="start|top"
+                android:textColor="@color/black" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/d50"
+                android:layout_marginBottom="@dimen/d32">
+
+                <Button
+                    android:id="@+id/sign_custom_transaction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="Sign" />
+
+                <ProgressBar
+                    android:id="@+id/loadingIndicator"
+                    android:layout_width="@dimen/d32"
+                    android:layout_height="@dimen/d32"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

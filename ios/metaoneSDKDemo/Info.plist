@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSCameraUsageDescription</key>
+    <string>Enabling camera permissions will allow you to scan the QR code for the wallet address or WalletConnect session or to take a profile picture to personalize your account look.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Enable Microphone for websites searched inside. App is not using any Microphone recorded data itself.</string>
+</dict>
+</plist>

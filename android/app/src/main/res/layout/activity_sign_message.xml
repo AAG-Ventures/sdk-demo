@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="@dimen/d24">
+
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back" />
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        style="@style/h2_sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d32"
+        android:layout_marginBottom="@dimen/d12"
+        android:gravity="left"
+        android:text="Message:"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text="This is a test message"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewHexHeader"
+        style="@style/h2_sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d32"
+        android:layout_marginBottom="@dimen/d12"
+        android:gravity="left"
+        android:text="HEX:"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewHex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text="0x5468697320697320612074657374206d657373616765"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/sign_custom_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/d32"
+        android:text="Sign" />
+
+</LinearLayout>

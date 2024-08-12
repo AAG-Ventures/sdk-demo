@@ -1,0 +1,21 @@
+
+I
+java:S1659*"3Declare "signCustomTransaction" on a separate line.(ê‘´®
+—
+java:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê
+—
+java:S1186D"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+X
+java:S1854^"=Remove this useless assignment to local variable "!unknown!".(‚Ê¦¨şÿÿÿÿ
+S
+java:S1854`"=Remove this useless assignment to local variable "!unknown!".(“Ç²Ü
+X
+java:S1854d"=Remove this useless assignment to local variable "!unknown!".(×ÊÃëùÿÿÿÿ
+B
+java:S1602v",Remove useless curly braces around statement(ëö¡ê
+X
+java:S1126}"BReplace this if-then-else statement by a single method invocation.(´õ¾€
+Y
+java:S1854˜"=Remove this useless assignment to local variable "!unknown!".(™™úÿÿÿÿ
+Q
+java:S1117¨":Rename "wallet" which hides the field declared at line 37.(í‰…è

@@ -1,0 +1,4 @@
+metaoneSDKConfig.plist
+GoogleService-Info.plist
+**/Pods/
+Podfile.lock

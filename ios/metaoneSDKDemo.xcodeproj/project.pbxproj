@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA5750C039FEE083877CD09 /* Pods_metaoneSDKDemo_metaoneSDKDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A2E590DC4CCF0ACF08C458 /* Pods_metaoneSDKDemo_metaoneSDKDemoTests.framework */; };
+		207AF2712AFF8ED700C269F3 /* CustomSendTxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207AF2702AFF8ED700C269F3 /* CustomSendTxView.swift */; };
+		20F56E262ABC7624006C0D5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F56E252ABC7624006C0D5F /* GoogleService-Info.plist */; };
+		6F38FDA42A94B55C0013F07B /* ColorSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F38FDA32A94B55C0013F07B /* ColorSchemes.swift */; };
+		6F3A81DA2A9649AE00439EAC /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A81D92A9649AE00439EAC /* ApiClient.swift */; };
+		6F3A81DC2A9649F900439EAC /* AuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A81DB2A9649F900439EAC /* AuthClient.swift */; };
+		6FA676B32A9D042E009591ED /* ApiTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA676B22A9D042E009591ED /* ApiTestingView.swift */; };
+		6FBEC28B2A641CD600BF53F5 /* metaoneSDKConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FBEC28A2A641CD600BF53F5 /* metaoneSDKConfig.plist */; };
+		6FEBE3612A5D72CF00903EB7 /* metaoneSDKDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEBE3602A5D72CF00903EB7 /* metaoneSDKDemoApp.swift */; };
+		6FEBE3632A5D72CF00903EB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEBE3622A5D72CF00903EB7 /* ContentView.swift */; };
+		6FEBE3722A5D72D000903EB7 /* metaoneSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEBE3712A5D72D000903EB7 /* metaoneSDKDemoTests.swift */; };
+		6FEBE37C2A5D72D000903EB7 /* metaoneSDKDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEBE37B2A5D72D000903EB7 /* metaoneSDKDemoUITests.swift */; };
+		6FEBE37E2A5D72D000903EB7 /* metaoneSDKDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEBE37D2A5D72D000903EB7 /* metaoneSDKDemoUITestsLaunchTests.swift */; };
+		A5C0494F2A5DBA260080C370 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0494E2A5DBA260080C370 /* LoginView.swift */; };
+		A5C049512A5DBAA10080C370 /* AuthorizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C049502A5DBAA10080C370 /* AuthorizedView.swift */; };
+		A5C049532A5DBACC0080C370 /* UnauthorizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C049522A5DBACC0080C370 /* UnauthorizedView.swift */; };
+		A5C0495C2A5DBD7B0080C370 /* TestActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0495B2A5DBD7B0080C370 /* TestActionsView.swift */; };
+		A69F5279A9DCF0C45B180E10 /* Pods_metaoneSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA22579965FF66CB4E3775F /* Pods_metaoneSDKDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FEBE36E2A5D72D000903EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FEBE3552A5D72CF00903EB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FEBE35C2A5D72CF00903EB7;
+			remoteInfo = metaoneSDKDemo;
+		};
+		6FEBE3782A5D72D000903EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FEBE3552A5D72CF00903EB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FEBE35C2A5D72CF00903EB7;
+			remoteInfo = metaoneSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A2E590DC4CCF0ACF08C458 /* Pods_metaoneSDKDemo_metaoneSDKDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_metaoneSDKDemo_metaoneSDKDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		207AF2702AFF8ED700C269F3 /* CustomSendTxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSendTxView.swift; sourceTree = "<group>"; };
+		20F56E252ABC7624006C0D5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		23490E7B2AA219D60032237A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F382092ABB376600718116 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2CEF09F3C3D561E71CB92BF1 /* Pods-metaoneSDKDemo-metaoneSDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metaoneSDKDemo-metaoneSDKDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-metaoneSDKDemo-metaoneSDKDemoTests/Pods-metaoneSDKDemo-metaoneSDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42FB90E7FF52F80C9DABA4A3 /* Pods-metaoneSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metaoneSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-metaoneSDKDemo/Pods-metaoneSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6F38FDA32A94B55C0013F07B /* ColorSchemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemes.swift; sourceTree = "<group>"; };
+		6F3A81D92A9649AE00439EAC /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		6F3A81DB2A9649F900439EAC /* AuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthClient.swift; sourceTree = "<group>"; };
+		6FA676B22A9D042E009591ED /* ApiTestingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiTestingView.swift; sourceTree = "<group>"; };
+		6FBEC28A2A641CD600BF53F5 /* metaoneSDKConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = metaoneSDKConfig.plist; path = metaoneSDKDemo/metaoneSDKConfig.plist; sourceTree = SOURCE_ROOT; };
+		6FE58AC12A5D7421000F12CB /* metaoneSDKDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = metaoneSDKDemo.xcodeproj; sourceTree = "<group>"; };
+		6FEBE35D2A5D72CF00903EB7 /* metaoneSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metaoneSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEBE3602A5D72CF00903EB7 /* metaoneSDKDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metaoneSDKDemoApp.swift; sourceTree = "<group>"; };
+		6FEBE3622A5D72CF00903EB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FEBE3642A5D72D000903EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FEBE3672A5D72D000903EB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FEBE36D2A5D72D000903EB7 /* metaoneSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metaoneSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEBE3712A5D72D000903EB7 /* metaoneSDKDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metaoneSDKDemoTests.swift; sourceTree = "<group>"; };
+		6FEBE3772A5D72D000903EB7 /* metaoneSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metaoneSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEBE37B2A5D72D000903EB7 /* metaoneSDKDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metaoneSDKDemoUITests.swift; sourceTree = "<group>"; };
+		6FEBE37D2A5D72D000903EB7 /* metaoneSDKDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metaoneSDKDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5C0493B2A5DAD130080C370 /* CYBAVOWallet */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = CYBAVOWallet; path = Pods/CYBAVOWallet/CYBAVOWallet.framework/CYBAVOWallet; sourceTree = "<group>"; };
+		A5C0494E2A5DBA260080C370 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A5C049502A5DBAA10080C370 /* AuthorizedView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = AuthorizedView.swift; sourceTree = "<group>"; };
+		A5C049522A5DBACC0080C370 /* UnauthorizedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnauthorizedView.swift; sourceTree = "<group>"; };
+		A5C0495B2A5DBD7B0080C370 /* TestActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestActionsView.swift; sourceTree = "<group>"; };
+		D5D17110905E6EAF3A5835DE /* Pods-metaoneSDKDemo-metaoneSDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metaoneSDKDemo-metaoneSDKDemoTests.release.xcconfig"; path = "Target Support Files/Pods-metaoneSDKDemo-metaoneSDKDemoTests/Pods-metaoneSDKDemo-metaoneSDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAA22579965FF66CB4E3775F /* Pods_metaoneSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_metaoneSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30DEC87DF6B20AB98F6CA9C /* Pods-metaoneSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metaoneSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-metaoneSDKDemo/Pods-metaoneSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FEBE35A2A5D72CF00903EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69F5279A9DCF0C45B180E10 /* Pods_metaoneSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEBE36A2A5D72D000903EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA5750C039FEE083877CD09 /* Pods_metaoneSDKDemo_metaoneSDKDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEBE3742A5D72D000903EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F38FDA22A94B5510013F07B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				6F38FDA32A94B55C0013F07B /* ColorSchemes.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		6F3A81D82A96498C00439EAC /* api */ = {
+			isa = PBXGroup;
+			children = (
+				6F3A81DD2A964A4C00439EAC /* clients */,
+				6F3A81D92A9649AE00439EAC /* ApiClient.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		6F3A81DD2A964A4C00439EAC /* clients */ = {
+			isa = PBXGroup;
+			children = (
+				6F3A81DB2A9649F900439EAC /* AuthClient.swift */,
+			);
+			path = clients;
+			sourceTree = "<group>";
+		};
+		6FE58AC22A5D7421000F12CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FEBE3542A5D72CF00903EB7 = {
+			isa = PBXGroup;
+			children = (
+				6FEBE35F2A5D72CF00903EB7 /* metaoneSDKDemo */,
+				6FEBE3702A5D72D000903EB7 /* metaoneSDKDemoTests */,
+				6FEBE37A2A5D72D000903EB7 /* metaoneSDKDemoUITests */,
+				6FEBE35E2A5D72CF00903EB7 /* Products */,
+				6FEBE38A2A5D730B00903EB7 /* Frameworks */,
+				AA6A4A9672AFB7F8A1467DFE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6FEBE35E2A5D72CF00903EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FEBE35D2A5D72CF00903EB7 /* metaoneSDKDemo.app */,
+				6FEBE36D2A5D72D000903EB7 /* metaoneSDKDemoTests.xctest */,
+				6FEBE3772A5D72D000903EB7 /* metaoneSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FEBE35F2A5D72CF00903EB7 /* metaoneSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				23490E7B2AA219D60032237A /* Info.plist */,
+				6F3A81D82A96498C00439EAC /* api */,
+				6F38FDA22A94B5510013F07B /* utils */,
+				A5C0494C2A5DBA080080C370 /* Views */,
+				6FEBE3602A5D72CF00903EB7 /* metaoneSDKDemoApp.swift */,
+				23F382092ABB376600718116 /* GoogleService-Info.plist */,
+				6FEBE3622A5D72CF00903EB7 /* ContentView.swift */,
+				6FEBE3642A5D72D000903EB7 /* Assets.xcassets */,
+				6FEBE3662A5D72D000903EB7 /* Preview Content */,
+				6FBEC28A2A641CD600BF53F5 /* metaoneSDKConfig.plist */,
+				20F56E252ABC7624006C0D5F /* GoogleService-Info.plist */,
+			);
+			path = metaoneSDKDemo;
+			sourceTree = "<group>";
+		};
+		6FEBE3662A5D72D000903EB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6FEBE3672A5D72D000903EB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FEBE3702A5D72D000903EB7 /* metaoneSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FEBE3712A5D72D000903EB7 /* metaoneSDKDemoTests.swift */,
+			);
+			path = metaoneSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		6FEBE37A2A5D72D000903EB7 /* metaoneSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FEBE37B2A5D72D000903EB7 /* metaoneSDKDemoUITests.swift */,
+				6FEBE37D2A5D72D000903EB7 /* metaoneSDKDemoUITestsLaunchTests.swift */,
+			);
+			path = metaoneSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+		6FEBE38A2A5D730B00903EB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0493B2A5DAD130080C370 /* CYBAVOWallet */,
+				6FE58AC12A5D7421000F12CB /* metaoneSDKDemo.xcodeproj */,
+				DAA22579965FF66CB4E3775F /* Pods_metaoneSDKDemo.framework */,
+				03A2E590DC4CCF0ACF08C458 /* Pods_metaoneSDKDemo_metaoneSDKDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5C0494C2A5DBA080080C370 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0494E2A5DBA260080C370 /* LoginView.swift */,
+				A5C049502A5DBAA10080C370 /* AuthorizedView.swift */,
+				207AF2702AFF8ED700C269F3 /* CustomSendTxView.swift */,
+				6FA676B22A9D042E009591ED /* ApiTestingView.swift */,
+				A5C049522A5DBACC0080C370 /* UnauthorizedView.swift */,
+				A5C0495B2A5DBD7B0080C370 /* TestActionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA6A4A9672AFB7F8A1467DFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E30DEC87DF6B20AB98F6CA9C /* Pods-metaoneSDKDemo.debug.xcconfig */,
+				42FB90E7FF52F80C9DABA4A3 /* Pods-metaoneSDKDemo.release.xcconfig */,
+				2CEF09F3C3D561E71CB92BF1 /* Pods-metaoneSDKDemo-metaoneSDKDemoTests.debug.xcconfig */,
+				D5D17110905E6EAF3A5835DE /* Pods-metaoneSDKDemo-metaoneSDKDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FEBE35C2A5D72CF00903EB7 /* metaoneSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FEBE3812A5D72D000903EB7 /* Build configuration list for PBXNativeTarget "metaoneSDKDemo" */;
+			buildPhases = (
+				B978DC31BC82E708950BC52C /* [CP] Check Pods Manifest.lock */,
+				6FEBE3592A5D72CF00903EB7 /* Sources */,
+				6FEBE35A2A5D72CF00903EB7 /* Frameworks */,
+				6FEBE35B2A5D72CF00903EB7 /* Resources */,
+				6F5C113C2A5E822900641253 /* ShellScript */,
+				ACE1E2618F19BF335032FED7 /* [CP] Embed Pods Frameworks */,
+				DD2CC75347715D473F0B4856 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metaoneSDKDemo;
+			productName = metaoneSDKDemo;
+			productReference = 6FEBE35D2A5D72CF00903EB7 /* metaoneSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FEBE36C2A5D72D000903EB7 /* metaoneSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FEBE3842A5D72D000903EB7 /* Build configuration list for PBXNativeTarget "metaoneSDKDemoTests" */;
+			buildPhases = (
+				6E045700CB8EE5A75976CDE9 /* [CP] Check Pods Manifest.lock */,
+				6FEBE3692A5D72D000903EB7 /* Sources */,
+				6FEBE36A2A5D72D000903EB7 /* Frameworks */,
+				6FEBE36B2A5D72D000903EB7 /* Resources */,
+				4F84789EF18B900492A4AF7E /* [CP] Embed Pods Frameworks */,
+				A91D23E242A1B9BC34CD3D26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FEBE36F2A5D72D000903EB7 /* PBXTargetDependency */,
+			);
+			name = metaoneSDKDemoTests;
+			productName = metaoneSDKDemoTests;
+			productReference = 6FEBE36D2A5D72D000903EB7 /* metaoneSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FEBE3762A5D72D000903EB7 /* metaoneSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FEBE3872A5D72D000903EB7 /* Build configuration list for PBXNativeTarget "metaoneSDKDemoUITests" */;
+			buildPhases = (
+				6FEBE3732A5D72D000903EB7 /* Sources */,
+				6FEBE3742A5D72D000903EB7 /* Frameworks */,
+				6FEBE3752A5D72D000903EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FEBE3792A5D72D000903EB7 /* PBXTargetDependency */,
+			);
+			name = metaoneSDKDemoUITests;
+			productName = metaoneSDKDemoUITests;
+			productReference = 6FEBE3772A5D72D000903EB7 /* metaoneSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FEBE3552A5D72CF00903EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6FEBE35C2A5D72CF00903EB7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					6FEBE36C2A5D72D000903EB7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6FEBE35C2A5D72CF00903EB7;
+					};
+					6FEBE3762A5D72D000903EB7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6FEBE35C2A5D72CF00903EB7;
+					};
+				};
+			};
+			buildConfigurationList = 6FEBE3582A5D72CF00903EB7 /* Build configuration list for PBXProject "metaoneSDKDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				id,
+				"fil-PH",
+				vi,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 6FEBE3542A5D72CF00903EB7;
+			packageReferences = (
+				2053A5072AA5CD86009DFE7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 6FEBE35E2A5D72CF00903EB7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6FE58AC22A5D7421000F12CB /* Products */;
+					ProjectRef = 6FE58AC12A5D7421000F12CB /* metaoneSDKDemo.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6FEBE35C2A5D72CF00903EB7 /* metaoneSDKDemo */,
+				6FEBE36C2A5D72D000903EB7 /* metaoneSDKDemoTests */,
+				6FEBE3762A5D72D000903EB7 /* metaoneSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FEBE35B2A5D72CF00903EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBEC28B2A641CD600BF53F5 /* metaoneSDKConfig.plist in Resources */,
+				20F56E262ABC7624006C0D5F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEBE36B2A5D72D000903EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEBE3752A5D72D000903EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F84789EF18B900492A4AF7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo-metaoneSDKDemoTests/Pods-metaoneSDKDemo-metaoneSDKDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo-metaoneSDKDemoTests/Pods-metaoneSDKDemo-metaoneSDKDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo-metaoneSDKDemoTests/Pods-metaoneSDKDemo-metaoneSDKDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E045700CB8EE5A75976CDE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-metaoneSDKDemo-metaoneSDKDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F5C113C2A5E822900641253 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint --fix && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		A91D23E242A1B9BC34CD3D26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo-metaoneSDKDemoTests/Pods-metaoneSDKDemo-metaoneSDKDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo-metaoneSDKDemoTests/Pods-metaoneSDKDemo-metaoneSDKDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo-metaoneSDKDemoTests/Pods-metaoneSDKDemo-metaoneSDKDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE1E2618F19BF335032FED7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo/Pods-metaoneSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo/Pods-metaoneSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo/Pods-metaoneSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B978DC31BC82E708950BC52C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-metaoneSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD2CC75347715D473F0B4856 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo/Pods-metaoneSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo/Pods-metaoneSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-metaoneSDKDemo/Pods-metaoneSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FEBE3592A5D72CF00903EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA676B32A9D042E009591ED /* ApiTestingView.swift in Sources */,
+				A5C0495C2A5DBD7B0080C370 /* TestActionsView.swift in Sources */,
+				6F3A81DC2A9649F900439EAC /* AuthClient.swift in Sources */,
+				A5C0494F2A5DBA260080C370 /* LoginView.swift in Sources */,
+				6F38FDA42A94B55C0013F07B /* ColorSchemes.swift in Sources */,
+				6F3A81DA2A9649AE00439EAC /* ApiClient.swift in Sources */,
+				A5C049512A5DBAA10080C370 /* AuthorizedView.swift in Sources */,
+				6FEBE3632A5D72CF00903EB7 /* ContentView.swift in Sources */,
+				A5C049532A5DBACC0080C370 /* UnauthorizedView.swift in Sources */,
+				6FEBE3612A5D72CF00903EB7 /* metaoneSDKDemoApp.swift in Sources */,
+				207AF2712AFF8ED700C269F3 /* CustomSendTxView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEBE3692A5D72D000903EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEBE3722A5D72D000903EB7 /* metaoneSDKDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEBE3732A5D72D000903EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEBE37E2A5D72D000903EB7 /* metaoneSDKDemoUITestsLaunchTests.swift in Sources */,
+				6FEBE37C2A5D72D000903EB7 /* metaoneSDKDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FEBE36F2A5D72D000903EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FEBE35C2A5D72CF00903EB7 /* metaoneSDKDemo */;
+			targetProxy = 6FEBE36E2A5D72D000903EB7 /* PBXContainerItemProxy */;
+		};
+		6FEBE3792A5D72D000903EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FEBE35C2A5D72CF00903EB7 /* metaoneSDKDemo */;
+			targetProxy = 6FEBE3782A5D72D000903EB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FEBE37F2A5D72D000903EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FEBE3802A5D72D000903EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FEBE3822A5D72D000903EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30DEC87DF6B20AB98F6CA9C /* Pods-metaoneSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"metaoneSDKDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = QJ2TY4JUGL;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = metaoneSDKDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "M1 Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/CYBAVOWallet/CYBAVOWallet.framework",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ventures.aag.metaonesdkdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FEBE3832A5D72D000903EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FB90E7FF52F80C9DABA4A3 /* Pods-metaoneSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"metaoneSDKDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = QJ2TY4JUGL;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = metaoneSDKDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "M1 Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/CYBAVOWallet/CYBAVOWallet.framework",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ventures.aag.metaonesdkdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FEBE3852A5D72D000903EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CEF09F3C3D561E71CB92BF1 /* Pods-metaoneSDKDemo-metaoneSDKDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ2TY4JUGL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ventures.aag.metaonesdkdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metaoneSDKDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/metaoneSDKDemo";
+			};
+			name = Debug;
+		};
+		6FEBE3862A5D72D000903EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D17110905E6EAF3A5835DE /* Pods-metaoneSDKDemo-metaoneSDKDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ2TY4JUGL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ventures.aag.metaonesdkdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metaoneSDKDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/metaoneSDKDemo";
+			};
+			name = Release;
+		};
+		6FEBE3882A5D72D000903EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ2TY4JUGL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ventures.aag.metaonesdkdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = metaoneSDKDemo;
+			};
+			name = Debug;
+		};
+		6FEBE3892A5D72D000903EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ2TY4JUGL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ventures.aag.metaonesdkdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = metaoneSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FEBE3582A5D72CF00903EB7 /* Build configuration list for PBXProject "metaoneSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEBE37F2A5D72D000903EB7 /* Debug */,
+				6FEBE3802A5D72D000903EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FEBE3812A5D72D000903EB7 /* Build configuration list for PBXNativeTarget "metaoneSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEBE3822A5D72D000903EB7 /* Debug */,
+				6FEBE3832A5D72D000903EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FEBE3842A5D72D000903EB7 /* Build configuration list for PBXNativeTarget "metaoneSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEBE3852A5D72D000903EB7 /* Debug */,
+				6FEBE3862A5D72D000903EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FEBE3872A5D72D000903EB7 /* Build configuration list for PBXNativeTarget "metaoneSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEBE3882A5D72D000903EB7 /* Debug */,
+				6FEBE3892A5D72D000903EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2053A5072AA5CD86009DFE7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 6FEBE3552A5D72CF00903EB7 /* Project object */;
+}
