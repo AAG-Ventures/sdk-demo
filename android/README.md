@@ -26,7 +26,7 @@ sdk.realm=given-by-aag
 
 Add the following code to your `app/build.gradle` file:
 ```groovy
-implementation 'io.github.aag-ventures:MetaOneSDK:1.9.3'
+implementation 'io.github.aag-ventures:MetaOneSDK:2.1.5'
 ```
 
 Add mapping to `local.properties` key values to your `app/build.gradle` file:
