@@ -14,11 +14,7 @@ To begin integrating the MetaOne Wallet SDK into your Android application, you n
 
 Add the following configuration to your local properties file:
 ```properties
-walletsdk.maven.url=given-by-aag
-walletsdk.maven.username=given-by-aag
-walletsdk.maven.password=given-by-aag
 
-# setting up SDK environment
 sdk.environment=test (test(testnet),stage(mainnet),prod(mainnet))
 sdk.api.client.reference=given-by-aag
 sdk.api.key.phrase=given-by-client(Key Phrase for API)
