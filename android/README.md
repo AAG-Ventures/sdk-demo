@@ -24,29 +24,6 @@ sdk.realm=given-by-aag
 
 ```
 
-Add following code to your build.gradle file:
-```groovy
-allprojects {
-    repositories {
-        google()
-        jcenter()
-        mavenCentral()
-        maven { url 'https://www.jitpack.io' }
-        maven {
-             Properties properties = new Properties()
-            properties.load(project.rootProject.file('local.properties').newDataInputStream())
-
-            url properties.getProperty('walletsdk.maven.url')
-            credentials {
-                username = properties.getProperty('walletsdk.maven.username')
-                password = properties.getProperty('walletsdk.maven.password')
-            }
-        }
-    }
-}
-
-```
-
 Add the following code to your `app/build.gradle` file:
 ```groovy
 implementation 'io.github.aag-ventures:MetaOneSDK:1.9.3'
